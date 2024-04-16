@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 # 模型載入
-@st.cache_resource
+# @st.cache_resource
 def load_model():
     return keras.saving.load_model('emnist_cnn_model.keras')
 
